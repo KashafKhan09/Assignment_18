@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Open console for answers</h1>
+    <script>
+        //Question 1
+        function printUserInfo(name, age) {
+            let paraVal = name + " " + age;
+            return paraVal;
+        }
+        let printVal = printUserInfo("Kashaf",18);
+        console.log(printVal);
+
+        //Question 2
+        function double(val1) {
+            return val1 * 2;
+        }
+        let doubleVal = double(6);
+        console.log(doubleVal);
+
+        //Question 3
+        let square = function(squareVal) {
+            return squareVal + squareVal;
+        }
+        console.log(square(4));
+
+        //Question 4
+        let checkBaby = (babyAge) => {
+            if(babyAge < 18) {
+                console.log('Baby');
+            } else {
+                console.log('Adult');
+            }
+        }
+        checkBaby(14);
+        checkBaby(24);
+
+        //Question 5 
+        let sumOfNumbers = (sumNum) => {
+            console.log(sumNum + sumNum);    
+        }
+        sumOfNumbers(8);
+    </script>
+</body>
+</html>
